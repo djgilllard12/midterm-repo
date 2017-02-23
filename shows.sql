@@ -1,4 +1,4 @@
-USE comp1006w2017dj;
+USE comp1006_dj_midterm;
 
 CREATE TABLE networks (
 network_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
