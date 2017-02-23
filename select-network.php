@@ -34,5 +34,8 @@
 				<button type = "button">Get Shows</button>
 			</form>
 		</main>
+		<footer>
+			<p>Mid-term Exam</p>
+		</footer>
 	</body>
 </html>
