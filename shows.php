@@ -25,7 +25,8 @@
 		// loop though data
 		foreach ($networks as $network) {
 			echo '<tr><td>' . $show_name . '</td>
-			,<td>' . $first_year . '</td></tr>';
+			<td>' . $first_year . '</td>
+			<td>' . $network . '</tr>';
 		}
 		// disconnect
 		$conn = null;

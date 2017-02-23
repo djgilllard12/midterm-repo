@@ -14,7 +14,6 @@
 						<?php
 						// variable setup
 						$networks = null;
-						$network = null;
 						// connect to db
 						$conn = new PDO('ca-cdbr-azure-central-a.cloudapp.net;comp1006_dj_midterm', 'b658a3c75177db', '20c05220');
 						// find the networks in database
@@ -32,7 +31,7 @@
 						?>
 					</select>
 				</fieldset>
-				<button type="button" name="Submit">Get Shows</button>
+				<button type = "button">Get Shows</button>
 			</form>
 		</main>
 	</body>
