@@ -12,7 +12,7 @@
 		// get the selected network
 		$network = $_POST['network_name'];
 		// connect to db
-		$conn = new PDO('mysql:host=ca-cdbr-azure-central-a.cloudapp.net;dbname=comp1006w2017dj', 'ba192cbc274955', 'fb945839');
+		$conn = new PDO('ca-cdbr-azure-central-a.cloudapp.net;comp1006_dj_midterm', 'b658a3c75177db', '20c05220');
 		// find all shows in the selected network
 		$cmd = $conn->prepare($sql);
 		$cmd->bindParam(':network_name', $network, PDO::PARAM_STR, 50);

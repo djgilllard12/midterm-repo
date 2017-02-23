@@ -16,7 +16,7 @@
 						$networks = null;
 						$network = null;
 						// connect to db
-						$conn = new PDO('mysql:host=ca-cdbr-azure-central-a.cloudapp.net;dbname=comp1006w2017dj', 'ba192cbc274955', 'fb945839');
+						$conn = new PDO('ca-cdbr-azure-central-a.cloudapp.net;comp1006_dj_midterm', 'b658a3c75177db', '20c05220');
 						// find the networks in database
 						$sql = "SELECT network_name FROM shows GROUP BY network_name ORDER BY network_name";
 						// excute sql script
@@ -31,8 +31,8 @@
 						$conn = null;
 						?>
 					</select>
-					<button type="button" name="Submit">Get Shows</button>
 				</fieldset>
+				<button type="button" name="Submit">Get Shows</button>
 			</form>
 		</main>
 	</body>
