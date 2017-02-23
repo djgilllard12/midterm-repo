@@ -31,8 +31,8 @@
 						$conn = null;
 						?>
 					</select>
+					<button type="button" name="Submit">Get Shows</button>
 				</fieldset>
-				<button type="button" name="Submit">Get Shows</button>
 			</form>
 		</main>
 	</body>
